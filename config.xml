@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<slideshow>
+	<maxSlides>10</maxSlides>  <!-- The max number of slides to show -->
+	<dataSource>default</dataSource> <!-- The type of the slideshow: default, custom -->
+	<!-- Custom configuration options with custom post types -->
+	<custom>
+		<postType>projects</postType> <!-- Custom post type -->
+		<title>title</title> <!-- The field used as the title -->
+		<showFields>subtitle, area, location</showFields> <!-- Additional fields to show on the slideshow -->
+ 		<orderField>location</orderField> <!-- The field that determine the order -->
+		<orderType>ASC</orderType> <!-- The order type for the order field -->
+		<videoField>video</videoField> <!-- The video field in case exist -->
+	</custom>
+</slideshow>
